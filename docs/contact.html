@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <title>Spoder Contact</title>
+    
+</head>
+<body>
+
+    <header>
+        <img src="images/spoder.jpg">
+        <h1>Spoder Web Page</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <h2>Contact us</h2>
+        <form id="myform" autocomplete="on">
+            
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required autofocus>
+
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" required>
+
+                <label for="telephone">Telephone Number:</label>
+                <input type="text" name="telephone" id="telephone" required>
+
+                <label for="employment">Employment Status</label>
+                <select name="employment" id="employment" required>
+                    <option value="">Select Option</option>
+                    <option value="1">Student</option>
+                    <option value="2">Employed Full-Time</option>
+                    <option value="3">Employed Part-Time</option>
+                    <option value="4">Retired</option>
+                    <option value="5">Other</option>
+                </select>
+
+            </fieldset>
+            <fieldset>
+                <legend>How Did you hear about our Site?</legend>
+                <label for="social">Social Media</label>
+                <input type="radio" name="hear" id="social" value="social">
+
+                <label for="friend">Friend</label>
+                <input type="radio" name="hear" id="friend" value="friend">
+
+                <label for="search">Search Engine</label>
+                <input type="radio" name="hear" id="search" value="search">
+
+                <label for="other">Other</label>
+                <input type="radio" name="hear" id="other" value="other" required>
+            </fieldset>
+            <fieldset>
+                <legend>Tell us what you think!</legend>
+                <label for="comment">Comment</label>
+                <textarea name="comment" id="comment"required>Enter comments here</textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Submit</legend>
+                <label for="robot">I am not a robot</label>
+                <input type="checkbox" name="robot" id="robot" required>
+
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </main>
+
+    <aside>
+        <h2>
+            <p>SpoderList</p>
+        </h2>
+        <ul>
+                <li>list item 1</li>
+                <li>list item 2</li>
+                <li>list item 3</li>
+        </ul>
+    </aside>
+    <footer>
+        <p>&copy; 2023 Derek Baker 8864876</p>
+    </footer>
+    
+</body>
+</html>

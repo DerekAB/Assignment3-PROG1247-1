@@ -1,0 +1,259 @@
+@media (min-width: 700px) {
+    
+body{
+    width: 100%; 
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 5px;
+    border: 2px solid purple;
+    font: normal normal normal 12px/15px georgia serif;
+    
+}
+header, nav, footer{
+    
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid purple;
+    height: 10vh;
+
+}
+
+header img{
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+    
+}
+header{
+    display: flex;
+    align-items: left;
+    background-color: pink;
+    font: normal normal 500 20px/1.5 arial, sans-serif;
+    line-height: auto;
+}
+nav{
+    text-align: right;
+    line-height: 10vh;
+}
+main{
+    height: 100vh;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid purple;
+    width: 60%;
+    float: left
+}
+main img{
+    max-width: 50%;
+    height: auto;
+    width: auto\5;
+    border: 10px solid plum;
+}
+iframe{
+    width: 400px;
+    height: auto;
+    border: 10px solid plum;
+}
+aside{
+    height: 100vh;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid purple;
+    width: 30%;
+    float: right;
+    font: normal normal normal 12px/15px georgia serif;
+}
+
+ul{
+    list-style: none;
+    line-height: 30px;
+}
+h2{
+    text-align: center;
+
+}
+footer{
+    clear: both;
+    font-size: small;
+    text-align: center;
+    background-color: pink;
+}
+nav a{
+    
+    text-decoration: none;
+    border: 1px solid red;
+    padding: 2px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    
+
+}
+nav a:hover{
+    color: yellow;
+    background-color: green;
+}
+form{
+    line-height: 15px;
+}
+input, textarea, select{
+    display: block;
+}
+#name, #email, #telephone, #employment{
+    width: 98%;
+}
+#comment{
+    width: 80%;
+}
+input[type=radio]{
+    display: inline;
+
+}
+input[type=checkbox]{
+    display: inline;
+
+}
+fieldset{
+    background-color: lightblue;
+}
+legend{
+    text-align: center;
+}
+
+input[type=submit],[type=reset]{
+    width: fit-content;
+    display: inline;
+    color: white;
+    background-color: black;
+    width: 100px;
+}
+}
+@media (max-width: 699) {
+    
+    body{
+        width: 100%; 
+        max-width: 600px;
+        margin: 10px auto;
+        padding: 5px;
+        border: 2px solid purple;
+        font: normal normal normal 12px/15px georgia serif;
+        
+    }
+    header, nav, footer{
+        
+        margin: 5px;
+        padding: 5px;
+        border: 2px solid purple;
+        height: 10vh;
+    
+    }
+    
+    header img{
+        width: auto;
+        height: auto;
+        margin-right: 10px;
+        
+    }
+    header{
+        display: flex;
+        align-items: left;
+        background-color: pink;
+        font: normal normal 500 20px/1.5 arial, sans-serif;
+        line-height: auto;
+    }
+    nav{
+        text-align: right;
+        line-height: 10vh;
+    }
+    main{
+        height: 100vh;
+        margin: 5px;
+        padding: 5px;
+        border: 2px solid purple;
+        width: 60%;
+        float: left
+    }
+    main img{
+        max-width: 50%;
+        height: auto;
+        width: auto\5;
+        border: 10px solid plum;
+    }
+    iframe{
+        width: 400px;
+        height: auto;
+        border: 10px solid plum;
+    }
+    aside{
+        height: 100vh;
+        margin: 5px;
+        padding: 5px;
+        border: 2px solid purple;
+        width: 30%;
+        float: right;
+        font: normal normal normal 12px/15px georgia serif;
+    }
+    
+    ul{
+        list-style: none;
+        line-height: 30px;
+    }
+    h2{
+        text-align: center;
+    
+    }
+    footer{
+        clear: both;
+        font-size: small;
+        text-align: center;
+        background-color: pink;
+    }
+    nav a{
+        
+        text-decoration: none;
+        border: 1px solid red;
+        padding: 2px;
+        margin: 5px;
+        font-size: 20px;
+        font-weight: bold;
+        color: blue;
+        
+    
+    }
+    nav a:hover{
+        color: yellow;
+        background-color: green;
+    }
+    form{
+        line-height: 15px;
+    }
+    input, textarea, select{
+        display: block;
+    }
+    #name, #email, #telephone, #employment{
+        width: 98%;
+    }
+    input[type=radio]{
+        display: inline;
+    
+    }
+    input[type=checkbox]{
+        display: inline;
+    
+    }
+    fieldset{
+        background-color: lightblue;
+    }
+    legend{
+        text-align: center;
+    }
+    
+    input[type=submit],[type=reset]{
+        width: fit-content;
+        display: inline;
+        color: white;
+        background-color: black;
+        width: 100px;
+    }
+    }
